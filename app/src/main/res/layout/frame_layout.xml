@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="AA" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="AAAA" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="AA" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="a1sd"
+        android:background="@android:color/holo_orange_light"
+        android:id="@+id/a"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="A203"
+            android:layout_marginLeft="100dp"
+            android:background="@android:color/holo_red_dark"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:background="@android:color/background_light"
+            android:text="cc" />
+    </LinearLayout>
+
+
+
+</FrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_circle_rectangle_bg"
+        android:text="https:www.baidu.com test12skdjfklsdkfls"
+        android:textSize="20sp"
+        android:shadowColor="#F9F900"
+        android:gravity="center"
+        android:padding="10dp"
+
+        android:shadowDx="10.0"
+        android:shadowDy="10.0"
+        android:shadowRadius="3.0"
+        android:textColor="@color/colorAccent"
+
+        android:drawableTop="@mipmap/ic_launcher_round"
+
+        android:autoLink="web"
+
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

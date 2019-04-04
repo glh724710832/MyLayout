@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:background="@mipmap/log1"/>
+
+    <LinearLayout
+        android:id="@+id/username_layout"
+        android:layout_below="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/test"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/us" />
+
+        <EditText
+            android:id="@+id/username_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="输入账号"
+            android:inputType="number"
+            android:maxLines="1"
+            android:maxLength="11"
+            android:paddingLeft="20dp"
+            android:selectAllOnFocus="true"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/pwd_layout"
+        android:layout_below="@+id/username_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/day03"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/userpassword" />
+
+        <EditText
+            android:id="@+id/pwd_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="6-12位数字或字符密码"
+            android:maxLength="12"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:selectAllOnFocus="true"/>
+    </LinearLayout>
+
+
+
+        <Button
+            android:layout_margin="20dp"
+            android:id="@+id/login_btn"
+            android:layout_below="@+id/pwd_layout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/day032"
+            android:gravity="center"
+            android:text="Login"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="30dp"
+        android:background="@null"
+        android:drawableRight="@android:drawable/sym_call_outgoing"
+        android:text="forget passWord?"
+        android:maxLines="1">
+
+    </EditText>
+
+
+</RelativeLayout>
